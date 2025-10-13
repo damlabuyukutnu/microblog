@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+ }
+
+ .card {
+    width: 100%;
+    max-width: 400px;
+    padding: 40px;
+    border-radius: 10px;
+    background: linear-gradient(to bottom right, #101269, #000000ad) !important;
+    box-shadow: 0 0 30px #5b5de6 !important;
+
+ }
+
+ .card-body {
+    display: flex;
+    flex-direction: column;
+ }
+
+ .login-container {
+    background: linear-gradient(to bottom right, #101269, #000000) !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+ }
+
+ .form-control,
+ .x-form-control {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    color: white;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    transition: 0.3s;
+ }
+
+ .form-control:focus {
+   background-color: transparent !important;
+   color: white !important;
+   outline: none !important;
+ }
+ 
+ .x-form-control::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+ }
+
+ .x-form-control:focus {
+    border-bottom: 1px solid #5b5de6 !important;
+    box-shadow: 0 0 10px #5b5de6 !important;
+ }
+
+ .form-check {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 20px;
+    color: white;
+ }
+
+ .x-btn {
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+    transition: all 0.3s;
+    margin-bottom: 6px;
+    border-radius: 7px;
+ }
+
+ .x-btn:hover {
+    background-color: #5b5de6 !important;
+    border-color: #5b5de6  !important;
+ }
+
+ .register-link {
+   text-decoration: none !important;
+ }
+ 
+
+ .text-check {
+    color: white;
+    font-size: 13px;
+ }
+
+ .text-primary {
+    color: rgb(254, 254, 254) !important; 
+    text-decoration: none !important;
+ }
+
+ .text-primary:hover {
+    text-decoration: underline !important;
+ }
+
+ .alert {
+    background-color: #5b5de6;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 15px;
+ }
+
+ .alert-danger {
+   background-color: #5b5de6 !important;
+   border-color: #101269 !important;
+   color: white; 
+ }
+ 
+
+ h2 {
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+ }
+

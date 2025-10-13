@@ -1,0 +1,116 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #000;
+  color: #fff;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* X Clone özel stilleri */
+.x-container {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: transparent !important;
+  min-height: 100vh;
+}
+
+.x-header {
+  background-color: rgb(9, 10, 57);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgb(9, 10, 57);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.x-post {
+  border-bottom: 1px solid transparent;
+  padding: 15px;
+  transition: background-color 0.2s;
+}
+
+.x-post:hover {
+  background-color: rgb(7, 8, 47);
+}
+
+.x-avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.x-form-control {
+  background-color: #333;
+  border: 1px solid #555;
+  color: #fff;
+}
+
+
+
+.x-btn-primary {
+  background-color: transparent;
+  border-color: white;
+  color: #fff;
+}
+
+.x-btn-primary:hover {
+  background-color: #5b5de6;
+  border-color: #5b5de6;
+}
+
+.x-nav-link {
+  color: #fff !important;
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 25px;
+  transition: background-color 0.2s;
+}
+
+.x-nav-link:hover {
+  background-color: #282966;
+  color: #fff !important;
+}
+
+.x-nav-link.active {
+  background-color: #5b5de6;
+  color: #fff !important;
+}
+
+
+.btn-outline-danger {
+  color: white !important;
+   background-color: transparent !important;
+   border-color: white !important;
+}
+
+.btn-outline-danger:hover {
+   background-color: #5b5de6 !important;
+   border-color: #5b5de6 !important;
+}
+
+
+.text-muted {
+   color: rgba(219, 226, 231, 0.25) !important;
+
+}
+
+.bg-dark {
+  background-color: #23245e !important;
+}
+
+.logo-img {
+  width: 80px;
+  height: auto;
+}

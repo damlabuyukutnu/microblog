@@ -1,0 +1,53 @@
+.App {
+  position: relative;
+  background: linear-gradient(to bottom right, #101269, #000000ad) !important;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.App::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: inherit;
+  filter: blur(100px);
+  z-index: 0;
+}
+
+.App > * {
+  position: relative;
+  z-index: 1;
+}
+
+
+main {
+  padding-top: 0;
+}
+
+/* Responsive tasarım için ek stiller */
+@media (max-width: 768px) {
+  .x-container {
+    max-width: 100%;
+  }
+  
+  .x-nav-link {
+    padding: 8px 12px;
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .x-nav-link {
+    padding: 6px 8px;
+    font-size: 0.8rem;
+  }
+  
+  .x-post {
+    padding: 10px;
+  }
+  
+  .x-avatar {
+    width: 40px;
+    height: 40px;
+  }
+}

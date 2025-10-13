@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+
+ }
+
+ .login-container {
+    background: linear-gradient(to bottom right, #b80000, #1c0000);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+ }
+
+ .card {
+    width: 100%;
+    max-width: 500px;
+    max-height: 90vh;
+    padding: 40px;
+    border-radius: 10px;
+    background: linear-gradient(to bottom right, #b80000, #1c0000ad);
+    box-shadow: 0 0 30px #ff000066;
+
+ }
+
+ .card-body {
+    display: flex;
+    flex-direction: column;
+ }
+
+ .form-control,
+ .x-form-control {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    color: white;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    transition: 0.3s;
+ }
+
+ .form-control:focus,
+ .x-form-control::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+ }
+
+ .x-form-control:focus {
+    border-bottom: 1px solid red;
+    box-shadow: 0 0 10px red;
+ }
+
+ .form-check {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 20px;
+    color: white;
+ }
+
+ .x-btn {
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+    transition: all 0.3s;
+    margin-bottom: 6px;
+    border-radius: 7px;
+ }
+
+ .x-btn:hover {
+    background-color: red;
+    border-color: red;
+ }
+
+ .text-check {
+    color: white;
+    font-size: 13px;
+ }
+
+ .text-primary {
+    color: red;
+    text-decoration: none;
+ }
+
+ .text-primary:hover {
+    text-decoration: underline;
+ }
+
+ .alert {
+    background-color: #ff4d4d;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 15px;
+ }
+
+ h2 {
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+ }
