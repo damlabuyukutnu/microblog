@@ -1,12 +1,55 @@
-# React + Vite
+# **Microblog App**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern **microblogging web application** built with **React**, designed to provide users with a simple and interactive social media experience. Users can create posts, like content, comment, reply to discussions, and manage their own posts through a responsive and user-friendly interface.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## **Features**
 
-## Expanding the ESLint configuration
+- User authentication with **JWT**
+- Create, delete, and manage posts
+- Like and unlike posts
+- Add comments and replies
+- Nested comment structure
+- Responsive design for **desktop, tablet, and mobile**
+- Loading states and conditional rendering for better UX
+- Form validation with **react-hook-form**
+- Dynamic content fetching with **REST API integration**
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## **Tech Stack**
+
+- **React**
+- **React Router v6**
+- **JavaScript**
+- **CSS**
+- **react-hook-form**
+- **REST API**
+- **JWT Authentication**
+
+---
+
+## **Project Highlights**
+
+- Built using a **component-based architecture**
+- Managed dynamic UI updates with **useState** and **useEffect**
+- Implemented secure authentication and protected user actions
+- Designed an interactive and modern interface with clean UI structure
+- Focused on responsive and smooth user experience
+
+---
+
+## **Purpose of the Project**
+
+This project was developed to improve my **React development skills** by building a real-world social media style application with authentication, user interaction, API integration, and responsive design.
+
+---
+
+## **Installation**
+
+```bash
+git clone <your-repo-link>
+cd <project-folder>
+npm install
+npm run dev
